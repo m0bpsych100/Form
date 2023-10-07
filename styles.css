@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 100px auto;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+#form {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Style the subheading */
+div {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Style labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the radio buttons */
+label input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+br {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+br {
+    margin-top: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}

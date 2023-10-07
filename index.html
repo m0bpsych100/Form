@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <div id="form">
+        <h1>Survey Form</h1>
+        <div>Thank you for taking the time to help us improve the platform</div>
+        <div id="result"></div>
+        <form action="/Form/index.html">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" id="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="em">
+            <label for="age">Age (Optional)</label>
+            <input type="number" name="age" id="age">
+            <label for="currRole">Current Role</label>
+            <select name="roles" id="roles">
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="prefer not">Prefer Not to Say</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="techStacks">What would you like to see improved?</label>
+            <br>
+            <label>
+                <input type="radio" name="techStacks" value="Front-end Projects">
+                Front-end Projects
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="techStacks" value="Back-end Projects">
+                Back-end Projects
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="techStacks" value="Open Source Community">
+                Open Source Community
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="techStacks" value="Wiki">
+                Wiki
+            </label>
+            <br>
+            <label for="sugg">Any comments or suggestions?</label>
+            <br>      
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
